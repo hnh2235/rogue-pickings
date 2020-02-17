@@ -1,0 +1,156 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 380px;
+  float: left;
+  padding: 5px 5px 5px 5px;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 110px;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 23px;
+  text-transform: uppercase;
+  padding: 25px 0 0 0;
+}
+
+header span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding-top: 35px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #77a466;
+  padding: 0 10px 0 0;
+}
+
+/***** HERO *****/
+
+#hero {
+  height: 291px;
+  background: url('../img/hero-image.png');
+  background-size: cover;
+  border: 3px solid #77a466;
+}
+
+/***** ABOUT *****/
+
+h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #77a466;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0 25px 10px 0;
+  padding: 0 0 15px 0;
+}
+
+/***** BOTTOM *****/
+
+#bottom {
+  border-top: 1px solid #deeaeb;
+}
+
+#bottom h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+/***** SPECIALS *****/
+
+#specials p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #77a466;
+}
+
+/***** REVIEWS *****/
+
+#reviews {
+  border-left: 1px solid #deeaeb;
+  border-right: 1px solid #deeaeb;
+}
+
+#reviews p {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 15px 25px 15px 25px;
+}
+
+#reviews h3 {
+  padding-left: 25px;
+
+}
+
+/***** CONTACT *****/
+
+#contact h3 {
+  padding-left: 25px;
+}
+
+#contact p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 15px 25px 15px 25px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  clear: both;
+  border-top: 1px solid #deeaeb;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 23px;
+}
+
+footer span {
+  font-family: 'Pacifico', cursive;
+  font-size: 16px;
+  text-transform: none;
+  color: #77a466;
+}
